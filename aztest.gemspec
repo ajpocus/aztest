@@ -7,11 +7,11 @@ require "aztest/version"
 Gem::Specification.new do |s|
   s.name        = "aztest"
   s.version     = Aztest::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Aztest."
-  s.description = "TODO: Description of Aztest."
+  s.authors     = ["Austin Pocus"]
+  s.email       = ["ajpocus@gmail.com"]
+  s.homepage    = "http://github.com/ajpocus/aztest"
+  s.summary     = "Summary of Aztest."
+  s.description = "Description of Aztest."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
